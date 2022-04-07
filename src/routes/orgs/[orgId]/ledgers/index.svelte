@@ -102,7 +102,7 @@
                 {/each}
             </select>
         </div>
-		<button type="submit" class="btn mx-auto">SUBMIT</button>
+		<button type="submit" class="btn btn-primary mx-auto">SUBMIT</button>
 	</form>
 </div>
 <div class="flex flex-col gap-4 p-4 bg-white dark:bg-gray-800 rounded-xl">

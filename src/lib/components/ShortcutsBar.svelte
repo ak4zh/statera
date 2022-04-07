@@ -29,14 +29,14 @@
 />
 
 <div
-	class="hidden sm:block fixed md:sticky bottom-0 top-0 inset-x-0 justify-center md:h-screen w-full h-16 md:flex-fit bg-teal-800 text-white text-xs">
+	class="hidden sm:block fixed md:sticky bottom-0 top-0 inset-x-0 justify-center md:h-screen w-full h-16 md:flex-fit bg-gray-200 dark:bg-gray-600 dark:text-white text-xs">
     {#each Object.entries(currentShortcuts) as [shortcutKey, shortcutData]}
         {@const fullPath = shortcutData.forOrg ? `/orgs/${organizationId}${shortcutData.path}` : shortcutData.path}
             <a 
             href="{fullPath}" 
-            class="{$page.url.pathname === fullPath ? 'bg-teal-500' : ''} 
-            block border-green-50 border-b-2 w-full py-3 px-3 text-left hover:bg-teal-300 hover:text-teal-800
-            transition duration-300">
+            class="{$page.url.pathname === fullPath ? 'bg-teal-500 text-white' : ''} 
+            block border-green-50 border-b-2 w-full py-3 px-3 text-left hover:bg-teal-300
+            transition duration-300 rounded-xl">
                 <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-teal-900 bg-teal-100 rounded-full">{shortcutKey}</span>
                 {shortcutData.title}
             </a>

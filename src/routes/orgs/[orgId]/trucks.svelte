@@ -34,7 +34,7 @@
 			<label for="name">Registration Number</label>
 			<input id="name" type="text" name="registration_number" />
 		</div>
-		<button class="btn mx-auto">SUBMIT</button>
+		<button class="btn btn-primary mx-auto">SUBMIT</button>
 	</form>
 </div>
 <div class="flex flex-col gap-4 p-4 bg-white dark:bg-gray-800 rounded-xl">

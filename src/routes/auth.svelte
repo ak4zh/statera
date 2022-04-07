@@ -143,7 +143,7 @@
 				<div>
 					<button
 						type="submit"
-						class="btn w-full py-2 px-4 rounded-md shadow-sm font-medium text-white"
+						class="btn btn-primary w-full py-2 px-4 rounded-md shadow-sm font-medium text-white"
 						>{authButtonText}</button
 					>
 				</div>

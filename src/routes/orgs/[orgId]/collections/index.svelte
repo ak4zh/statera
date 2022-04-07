@@ -134,7 +134,7 @@
                 </div>
             {/each}
         {/if}
-        <button class="btn mx-auto">SUBMIT</button>
+        <button class="btn btn-primary mx-auto">SUBMIT</button>
 	</form>
 </div>
 

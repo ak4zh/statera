@@ -156,7 +156,7 @@
 			<label for="transaction.description">Description</label>
 			<textarea id="transaction.description" name="transaction.description" />
 		</div>
-		<button class="btn mx-auto" type="submit">SUBMIT</button>
+		<button class="btn btn-primary mx-auto" type="submit">SUBMIT</button>
 		</form>
 	</div>
 </div>
